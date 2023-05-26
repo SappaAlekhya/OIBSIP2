@@ -1,0 +1,94 @@
+body {
+    background-image: url("https://img.freepik.com/free-photo/calculator-money-notepad-keyboard-yellow-background-flat-lay_169016-24505.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+   font-family: Arial, sans-serif;
+   margin: 120px;
+ }
+ 
+ h1 {
+   text-align: center;
+   color: #333;
+ }
+ 
+ .add-task {
+ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 20px;
+ 
+ 
+ }
+ 
+ .add-task input[type="text"] {
+   flex-grow: 0.1;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px 0 0 5px;
+ }
+ 
+ .add-task input[type="datetime-local"] {
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 0 5px 5px 0;
+ }
+ 
+ .add-task button {
+   padding: 10px 20px;
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ 
+ .add-task button:hover {
+   background-color: #45a049;
+ }
+ 
+ .tasks h2 {
+   margin-bottom: 10px;
+   color: #1a162e;
+ }
+ 
+ .tasks ul {
+   list-style-type: none;
+   padding-left: 0;
+ }
+ 
+ .tasks li {
+   display: flex;
+   align-items: center;
+   margin-bottom: 5px;
+   padding: 10px;
+   background-color:white;
+   border-radius: 5px;
+ }
+ 
+ .tasks .task-item {
+   flex-grow: 0;
+   margin-right: 0px;
+ }
+ 
+ .tasks .task-item.completed {
+   text-decoration: line-through;
+   color: #888;
+ }
+ 
+ .tasks .task-item button {
+   padding: 5px 10px;
+   background-color: #f44336;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-left: 10px;
+ }
+ 
+ .tasks .task-item button:hover {
+   background-color: #d32f2f;
+ }
+
+ 
